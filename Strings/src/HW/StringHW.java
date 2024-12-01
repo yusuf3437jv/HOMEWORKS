@@ -9,8 +9,8 @@ public class StringHW {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Bir sey giriniz: ");
-		String str = scan.nextLine();
+		 System.out.println("Bir sey giriniz: ");
+		 String str = scan.nextLine();
 		 System.out.println("uzunluk = " + str.length());
 		 
 		 System.out.println("Bir sey giriniz: ");
@@ -32,8 +32,8 @@ public class StringHW {
 		 System.out.println("yaziniz bununla mi bitiyor?" + a.endsWith("SA"));
 		 
 		 System.out.println("bir sey giriniz:");
-		String str2 = scan.nextLine();
-	    System.out.println("yazinin yeni hali:" + str2.replace("futbol","basketbol"));
+		 String str2 = scan.nextLine();
+	         System.out.println("yazinin yeni hali:" + str2.replace("futbol","basketbol"));
 		 
 		 
 		 
