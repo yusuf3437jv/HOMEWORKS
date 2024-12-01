@@ -7,7 +7,7 @@ public class Homework2 {
 	private static Scanner scan;
 	
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+	    Scanner scan = new Scanner(System.in);	
 		
             System.out.println("iki sayi giriniz:");
             double a=scan.nextDouble();
