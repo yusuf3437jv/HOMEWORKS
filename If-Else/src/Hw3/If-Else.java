@@ -11,7 +11,7 @@ public class Class {
 		
 		System.out.print("Birinci sayiyi giriniz:");
 		x = scan.nextDouble();
-       System.out.print("İkinci sayiyi giriniz:");
+                System.out.print("İkinci sayiyi giriniz:");
 		y = scan.nextDouble();
 		
 		if (x == y) {
@@ -21,6 +21,8 @@ public class Class {
 		}else {
 			System.out.println("ikinci sayi daha büyüktür.Birinci sayı daha küçüktür");
 		}// 1 bitti
+
+		
 		System.out.println("");//bos satir
 		
 		int vize  , ffinal ;
@@ -50,6 +52,8 @@ public class Class {
 		}else {
 			System.out.println("Kaldı");
 		}// 2 bitti
+
+		
 		//hesap makinesine hos geldiniz
 		
 		System.out.println("");//bos satir
@@ -74,8 +78,8 @@ public class Class {
 	        sonuc = ilkSayi;
 	        
 	        System.out.print("lütfen yapmak istediğiniz işlemi seçiniz (isleme ait karakteri girin !) :");
-			System.out.println("\ntoplama(+)\nçıkarma(-)\ncarpma(*)\nbolme(/)");
-			System.out.println("Seçiminiz:");
+	        System.out.println("\ntoplama(+)\nçıkarma(-)\ncarpma(*)\nbolme(/)");
+		System.out.println("Seçiminiz:");
 	        secim = scan.next();
 	        
 	         if (secim.equals(toplama) || secim.equals(cikarma) || secim.equals(carpma) || secim.equals(bolme) ) {
@@ -121,6 +125,8 @@ public class Class {
 	            System.out.println("sonuç =" + sonuc);
 	            System.out.println("Islemleriniz sona erdi.");
 	             // 3 bıttı
+
+		
 	            Scanner input = new Scanner(System.in);
 	            System.out.println("");//bos satir
 	            
@@ -134,7 +140,8 @@ public class Class {
 	            	return;
 	            }
 	            // 4 bitti
-	            
+
+		
 	            System.out.println("");//bos satir
 	            double boy , kilo , kitle_indeksi ;
 	            
