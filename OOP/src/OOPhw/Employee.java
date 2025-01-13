@@ -76,7 +76,7 @@ public class Employee {
 		}
 	}
 
-	public void everyThing() {
+	public void printInfo() {
 		System.out.println("Tax: " + tax());
 		System.out.println("Bonus: " + bonus());
 		System.out.println("Raise of Salary: " + raise());
