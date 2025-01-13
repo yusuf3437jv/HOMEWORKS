@@ -15,7 +15,7 @@ public class Main {
 		System.out.println("Çalışanın Çalışma Saati: " + emp.getWorkHours());
 		System.out.println("Hire Date: " + emp.getHireYear());
 
-		emp.everyThing();
+		emp.printInfo();
 		System.out.println("*************************************************");
 
 		System.out.println("How many emplooyes would you like to add?");
