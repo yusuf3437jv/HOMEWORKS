@@ -64,11 +64,6 @@ public class Robot extends TimedRobot {
     double left = speed + turn;
     double right = speed - turn;
 
-    leftMotor1.set(left);
-    leftMotor2.set(left);
-    rightMotor1.set(-right);
-    rightMotor2.set(-right);
-
     robot_drive.arcadeDrive(speed, turn);//hem hız hem dönüş kontrolü yapar
 
     SmartDashboard.putNumber("Left Motor 1 Speed", leftMotor1.get());
