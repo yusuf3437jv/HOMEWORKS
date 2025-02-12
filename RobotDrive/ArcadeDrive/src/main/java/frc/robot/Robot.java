@@ -37,7 +37,7 @@ public class Robot extends TimedRobot {
 
   // Gitmek istediğimiz mesafe (metre cinsinden)
   private static final double TARGET_DISTANCE = 2.0; // ileri gitme mesafesi 2 m
-  private static final double TURNT_DISTANCE = 0.5; // dönüş mesafesi 50 cm
+  private static final double TURN_DISTANCE = 0.5; // dönüş mesafesi 50 cm
   private boolean turning = false; // dönüş yapılıp yapılmadığını kontrol eder.
 
   private final XboxController m_controller = new XboxController(0);
